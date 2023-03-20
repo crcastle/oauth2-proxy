@@ -2,7 +2,7 @@ services:
   - type: pserv
     name: private-service
     env: node
-    plan: free
+    plan: starter
     repo: https://github.com/render-examples/express-hello-world
     buildCommand: yarn
     startCommand: node app.js
